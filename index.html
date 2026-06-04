@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TRACE-AI 2026 — NeurIPS Workshop</title>
+  <meta name="description"
+        content="Workshop on Transparency, Provenance, Accountability, and Governance for AI (Co-)Generated Content. NeurIPS 2026 (tentative), Sydney, Australia." />
+  <!-- Google Font: Inter. System-font stack below is the offline fallback. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       NAVIGATION
+       ═══════════════════════════════════════════════════════════ -->
+  <nav id="site-nav" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <span class="nav-brand">TRACE-AI 2026</span>
+      <button id="nav-toggle"
+              class="nav-hamburger"
+              aria-expanded="false"
+              aria-controls="nav-links"
+              aria-label="Open navigation menu">&#9776;</button>
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#topics">Topics</a></li>
+        <li><a href="#dates">Dates</a></li>
+        <li><a href="#submission">Submission</a></li>
+        <li><a href="#speakers">Speakers</a></li>
+        <li><a href="#schedule">Schedule</a></li>
+        <li><a href="#organizers">Organizers</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       HERO BANNER
+       ═══════════════════════════════════════════════════════════ -->
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="hero-venue">
+        Workshop proposal &mdash; NeurIPS 2026 (tentative) &middot; Sydney, Australia
+      </p>
+      <h1>TRACE-AI 2026</h1>
+      <p class="hero-subtitle">
+        Transparency, Provenance, Accountability, and Governance<br>
+        for AI (Co-)Generated Content
+      </p>
+      <span class="draft-badge">Draft &mdash; all dates and speakers tentative</span>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ═══════════════════════════════════════════════════════
+         ABOUT
+         ═══════════════════════════════════════════════════════ -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About</h2>
+        <p>
+          TRACE-AI focuses on the technical and governance infrastructure required to ensure
+          AI-generated content and knowledge is trustworthy. As AI systems increasingly produce
+          scientific manuscripts, generative art, legal documents, medical reports, and public
+          information, the field needs mechanisms that can answer:
+          <em>how was this artifact produced, by whom, using what AI systems, with what inputs,
+          and who is accountable for its claims?</em> The workshop addresses the provenance,
+          reproducibility, and auditability of AI contributions across the scientific and
+          artistic pipeline, and the governance frameworks needed to operationalise
+          accountability at scale.
+        </p>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════
+         TOPICS
+         ═══════════════════════════════════════════════════════ -->
+    <section id="topics" class="section section--alt">
+      <div class="container">
+        <h2>Key Research Themes</h2>
+        <div class="table-scroll">
+          <table class="themes-table">
+            <thead>
+              <tr>
+                <th scope="col">Theme 1: Technical Provenance</th>
+                <th scope="col">Theme 2: Transparency &amp; Explainability</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <ul>
+                    <li>Watermarking</li>
+                    <li>Cryptographic provenance</li>
+                    <li>C2PA</li>
+                    <li>AI interaction logging</li>
+                    <li>Research Object frameworks</li>
+                    <li>Model attribution</li>
+                    <li>Lineage tracking</li>
+                  </ul>
+                </td>
+                <td>
+                  <ul>
+                    <li>Process transparency</li>
+                    <li>Agent trajectory auditing</li>
+                    <li>Reasoning-process and interaction-trace verification</li>
+                    <li>Explainable generative systems</li>
+                    <li>Human&ndash;AI collaboration records</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <th scope="col">Theme 3: Accountability &amp; Assurance</th>
+                <th scope="col">Theme 4: Governance &amp; Policy</th>
+              </tr>
+              <tr>
+                <td>
+                  <ul>
+                    <li>AI assurance</li>
+                    <li>Auditing frameworks</li>
+                    <li>Evaluation methodologies</li>
+                    <li>Continuous assurance and monitoring</li>
+                    <li>Evidence generation</li>
+                    <li>Red teaming</li>
+                  </ul>
+                </td>
+                <td>
+                  <ul>
+                    <li>Scientific publishing policies</li>
+                    <li>Creative content governance</li>
+                    <li>AI disclosure requirements</li>
+                    <li>Standards and regulation</li>
+                    <li>Responsible AI frameworks</li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════
+         IMPORTANT DATES
+         ═══════════════════════════════════════════════════════ -->
+    <section id="dates" class="section">
+      <div class="container">
+        <h2>Important Dates <span class="tag tag--warn">All Tentative</span></h2>
+        <!-- TODO: Replace TBA values with actual dates once the NeurIPS schedule is released. -->
+        <table class="dates-table" aria-label="Important workshop dates">
+          <tbody>
+            <tr>
+              <td class="date-event">Submission deadline</td>
+              <td class="date-val">TBA <span class="note">(tentative)</span></td>
+            </tr>
+            <tr>
+              <td class="date-event">Author notification</td>
+              <td class="date-val">TBA <span class="note">(tentative)</span></td>
+            </tr>
+            <tr>
+              <td class="date-event">Camera-ready deadline</td>
+              <td class="date-val">TBA <span class="note">(tentative)</span></td>
+            </tr>
+            <tr>
+              <td class="date-event">Workshop date</td>
+              <td class="date-val">TBA <span class="note">(tentative)</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════
+         SUBMISSION
+         ═══════════════════════════════════════════════════════ -->
+    <section id="submission" class="section section--alt">
+      <div class="container">
+        <h2>Submission</h2>
+        <p>We welcome technical papers, position papers, experience papers, and demos.</p>
+
+        <div class="format-grid">
+          <div class="format-card">
+            <strong>Short papers</strong>
+            <span class="format-len">2&ndash;4 pages</span>
+          </div>
+          <div class="format-card">
+            <strong>Full papers</strong>
+            <span class="format-len">6&ndash;8 pages</span>
+          </div>
+        </div>
+
+        <p>
+          Submissions are <strong>double-blind</strong> and handled via OpenReview.
+          There are <strong>no archival proceedings</strong>; concurrent and follow-on
+          submission is allowed.
+        </p>
+        <!-- TODO: Replace href="#" with the OpenReview submission URL once the venue is created. -->
+        <p>
+          <a href="#" class="btn btn--disabled" tabindex="-1" aria-disabled="true">
+            Submission link: TBA
+          </a>
+        </p>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════
+         SPEAKERS
+         ═══════════════════════════════════════════════════════ -->
+    <section id="speakers" class="section">
+      <div class="container">
+        <h2>Invited Speakers <span class="tag tag--warn">Tentative</span></h2>
+
+        <h3>Keynotes</h3>
+        <div class="speaker-grid">
+
+          <!-- TODO: Replace each placeholder <div> with an <img> tag, add real name, affiliation, and bio.
+               Example: <img src="img/speaker1.jpg" alt="[Speaker Name]" class="speaker-photo"> -->
+          <article class="speaker-card">
+            <div class="speaker-photo speaker-photo--placeholder"
+                 role="img" aria-label="Keynote speaker photo — to be announced"></div>
+            <div class="speaker-meta">
+              <p class="speaker-name">To Be Announced</p>
+              <p class="speaker-talk">Keynote &mdash; AI &amp; the Arts
+                <span class="note">(tentative)</span></p>
+            </div>
+          </article>
+
+          <article class="speaker-card">
+            <div class="speaker-photo speaker-photo--placeholder"
+                 role="img" aria-label="Keynote speaker photo — to be announced"></div>
+            <div class="speaker-meta">
+              <p class="speaker-name">To Be Announced</p>
+              <p class="speaker-talk">Keynote &mdash; AI &amp; Science
+                <span class="note">(tentative)</span></p>
+            </div>
+          </article>
+
+        </div><!-- /.speaker-grid -->
+
+        <h3>Panel <span class="note">(tentative)</span></h3>
+        <p>
+          The panel brings together perspectives from industry research, AI labs, academic
+          research across arts, science, and AI law, and research-policy communities,
+          enabling cross-disciplinary dialogue on accountability and governance of
+          AI-generated content.
+        </p>
+        <!-- TODO: Replace "Panelist — TBA" entries with real names and affiliations once confirmed. -->
+        <ul class="panelist-list">
+          <li class="panelist-item">Panelist &mdash; TBA</li>
+          <li class="panelist-item">Panelist &mdash; TBA</li>
+          <li class="panelist-item">Panelist &mdash; TBA</li>
+          <li class="panelist-item">Panelist &mdash; TBA</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════
+         SCHEDULE
+         ═══════════════════════════════════════════════════════ -->
+    <section id="schedule" class="section section--alt">
+      <div class="container">
+        <h2>Schedule <span class="tag tag--warn">Tentative</span></h2>
+        <p class="section-note">Full-day workshop. All times subject to change.</p>
+        <div class="table-scroll">
+          <table class="schedule-table" aria-label="Workshop schedule">
+            <thead>
+              <tr>
+                <th scope="col">Time</th>
+                <th scope="col">Session</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="sched-time">09:00&ndash;09:10</td>
+                <td>Opening remarks</td>
+              </tr>
+              <tr>
+                <td class="sched-time">09:10&ndash;10:00</td>
+                <td>Invited talk 1</td>
+              </tr>
+              <tr>
+                <td class="sched-time">10:00&ndash;10:30</td>
+                <td>Contributed talks</td>
+              </tr>
+              <tr class="sched-break">
+                <td class="sched-time">10:30&ndash;11:00</td>
+                <td>Break</td>
+              </tr>
+              <tr>
+                <td class="sched-time">11:00&ndash;12:00</td>
+                <td>Contributed talks</td>
+              </tr>
+              <tr class="sched-break">
+                <td class="sched-time">12:00&ndash;13:30</td>
+                <td>Lunch</td>
+              </tr>
+              <tr>
+                <td class="sched-time">13:30&ndash;14:20</td>
+                <td>Invited talk 2</td>
+              </tr>
+              <tr>
+                <td class="sched-time">14:20&ndash;15:30</td>
+                <td>Panel discussion</td>
+              </tr>
+              <tr class="sched-break">
+                <td class="sched-time">15:30&ndash;16:00</td>
+                <td>Break</td>
+              </tr>
+              <tr>
+                <td class="sched-time">16:00&ndash;17:00</td>
+                <td>Poster session</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════
+         ORGANIZERS
+         ═══════════════════════════════════════════════════════ -->
+    <section id="organizers" class="section">
+      <div class="container">
+        <h2>Organizers</h2>
+        <p class="section-lead">
+          The organizing team brings complementary expertise across AI/ML, security and privacy,
+          and fairness, and has collaborated directly on the foundations of this agenda&mdash;including
+          a joint position paper introducing the AI-as-a-Research-Object paradigm for provenance
+          and governance of generative AI in science.
+        </p>
+
+        <!-- TODO: Add photo files to an img/ directory (square, ~200×200 px, JPG or PNG).
+             Replace each placeholder <div> with:
+             <img src="img/LASTNAME.jpg" alt="[Full Name]" class="org-photo"> -->
+        <div class="org-grid">
+
+          <article class="org-card">
+            <div class="org-photo org-photo--placeholder"
+                 role="img" aria-label="Photo — Mario Fritz"></div>
+            <div class="org-info">
+              <p class="org-name">Mario Fritz</p>
+              <p class="org-role">General Chair</p>
+              <p class="org-affil">CISPA Helmholtz Center for Information Security &amp;
+                Saarland University, Germany</p>
+              <p class="org-bio">Faculty at CISPA, honorary professor at Saarland University,
+                ELLIS fellow; works on trustworthy AI/ML, deepfakes, and privacy-preserving ML.</p>
+              <p class="org-links">
+                <a href="https://cispa.de/en/people/mario.fritz"
+                   target="_blank" rel="noopener noreferrer">cispa.de</a>
+                &middot;
+                <a href="mailto:fritz@cispa.de">fritz@cispa.de</a>
+              </p>
+            </div>
+          </article>
+
+          <article class="org-card">
+            <div class="org-photo org-photo--placeholder"
+                 role="img" aria-label="Photo — Ming Ding"></div>
+            <div class="org-info">
+              <p class="org-name">Ming Ding</p>
+              <p class="org-role">General Chair</p>
+              <p class="org-affil">CSIRO, Australia</p>
+              <p class="org-bio">Research in data privacy, security, and ML/AI; IEEE Signal Processing
+                Society Best Paper Award (2022); Clarivate Highly Cited Researcher (2024, 2025).</p>
+              <p class="org-links">
+                <a href="https://people-my.csiro.au/d/m/ming-ding"
+                   target="_blank" rel="noopener noreferrer">people.csiro.au</a>
+                &middot;
+                <a href="mailto:ming.ding@csiro.au">ming.ding@csiro.au</a>
+              </p>
+            </div>
+          </article>
+
+          <article class="org-card">
+            <div class="org-photo org-photo--placeholder"
+                 role="img" aria-label="Photo — Sharif Abuadbba"></div>
+            <div class="org-info">
+              <p class="org-name">Sharif Abuadbba</p>
+              <p class="org-role">Area Chair</p>
+              <p class="org-affil">CSIRO Data61, Australia</p>
+              <p class="org-bio">Team Leader of Distributed Systems Security at CSIRO Data61 and
+                Adjunct Associate Professor at UNSW; works on trustworthy AI, AI safety and assurance,
+                and adversarial ML.</p>
+              <p class="org-links">
+                <a href="https://people.csiro.au/A/S/sharif-abuadbba"
+                   target="_blank" rel="noopener noreferrer">people.csiro.au</a>
+                &middot;
+                <a href="mailto:sharif.abuadbba@csiro.au">sharif.abuadbba@csiro.au</a>
+              </p>
+            </div>
+          </article>
+
+          <article class="org-card">
+            <div class="org-photo org-photo--placeholder"
+                 role="img" aria-label="Photo — M.A.P. Chamikara"></div>
+            <div class="org-info">
+              <p class="org-name">M.A.P. Chamikara</p>
+              <p class="org-role">Reviewer Chair</p>
+              <p class="org-affil">CSIRO, Australia</p>
+              <p class="org-bio">Founding chair of LM-SHIELD and AGENT-SEC workshops; research on
+                AI security, alignment, privacy-preserving AI, and federated ML security.</p>
+              <p class="org-links">
+                <a href="https://people.csiro.au/m/c/chamikara-arachchige"
+                   target="_blank" rel="noopener noreferrer">people.csiro.au</a>
+                &middot;
+                <a href="mailto:Chamikara.Arachchige@csiro.au">Chamikara.Arachchige@csiro.au</a>
+              </p>
+            </div>
+          </article>
+
+          <article class="org-card">
+            <div class="org-photo org-photo--placeholder"
+                 role="img" aria-label="Photo — Natasha Fernandes"></div>
+            <div class="org-info">
+              <p class="org-name">Natasha Fernandes</p>
+              <p class="org-role">Reviewer Chair</p>
+              <p class="org-affil">Macquarie University, Australia</p>
+              <p class="org-bio">Senior Lecturer in Cyber Security; researches mathematical
+                foundations of data privacy (differential privacy, quantitative information flow);
+                John Makepeace Bennett Award for best CS thesis in Australia.</p>
+              <p class="org-links">
+                <a href="https://tashfernandes.github.io/"
+                   target="_blank" rel="noopener noreferrer">tashfernandes.github.io</a>
+                &middot;
+                <a href="mailto:natasha.fernandes@mq.edu.au">natasha.fernandes@mq.edu.au</a>
+              </p>
+            </div>
+          </article>
+
+          <article class="org-card">
+            <div class="org-photo org-photo--placeholder"
+                 role="img" aria-label="Photo — Ruta Binkyte"></div>
+            <div class="org-info">
+              <p class="org-name">Ruta Binkyte</p>
+              <p class="org-role">Panel Chair &amp; Communication</p>
+              <p class="org-affil">CISPA Helmholtz Center for Information Security, Germany</p>
+              <p class="org-bio">Postdoctoral researcher in sociotechnical AI risk evaluation;
+                first author of <em>Inspectable AI for Science</em>, introducing the
+                AI-as-a-Research-Object paradigm; publications at ICML, ACM FAccT, AAAI/ACM AIES.</p>
+              <p class="org-links">
+                <a href="https://www.rutabinkyte.com"
+                   target="_blank" rel="noopener noreferrer">rutabinkyte.com</a>
+                &middot;
+                <a href="mailto:ruta.binkyte-sadauskiene@cispa.de">ruta.binkyte-sadauskiene@cispa.de</a>
+              </p>
+            </div>
+          </article>
+
+          <article class="org-card">
+            <div class="org-photo org-photo--placeholder"
+                 role="img" aria-label="Photo — Rahat Masood"></div>
+            <div class="org-info">
+              <p class="org-name">Rahat Masood</p>
+              <p class="org-role">Logistics &amp; Sponsorship</p>
+              <p class="org-affil">University of New South Wales, Australia</p>
+              <p class="org-bio">Senior Lecturer at UNSW; research on trustworthy and responsible AI,
+                human-centred AI, and AI governance from technical, human, and policy perspectives.</p>
+              <p class="org-links">
+                <a href="https://www.unsw.edu.au/staff/rahat-masood"
+                   target="_blank" rel="noopener noreferrer">unsw.edu.au</a>
+                &middot;
+                <a href="mailto:rahat.masood@unsw.edu.au">rahat.masood@unsw.edu.au</a>
+              </p>
+            </div>
+          </article>
+
+        </div><!-- /.org-grid -->
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════
+         PROGRAM COMMITTEE
+         ═══════════════════════════════════════════════════════ -->
+    <section id="pc" class="section section--alt">
+      <div class="container">
+        <h2>Program Committee <span class="tag tag--warn">Tentative</span></h2>
+        <!-- TODO: Replace the placeholder text with the full PC member list once confirmed. -->
+        <p>18 members (tentative) spanning Australia, Europe, and the US.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       FOOTER
+       ═══════════════════════════════════════════════════════════ -->
+  <footer>
+    <div class="container">
+      <p>TRACE-AI 2026 (draft). Page content tentative.</p>
+      <!-- TODO: Replace TBA with the workshop contact email or mailing-list address. -->
+      <p>Contact: TBA</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
